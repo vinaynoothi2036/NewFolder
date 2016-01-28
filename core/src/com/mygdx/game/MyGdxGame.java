@@ -1,14 +1,14 @@
 package com.mygdx.game;
 
 import com.badlogic.gdx.Game;
-import com.mygdx.game.screen.MainMenuScreen;
+import com.mygdx.game.screen.Splash;
 
 public class MyGdxGame extends Game {
 	public static final String TITLE="SportsCards" , VERSION="0.0.0.0.reallyEarly";
 
 	@Override
 	public void create () {
-		setScreen(new MainMenuScreen());
+		setScreen(new Splash());
 
 	}
 	@Override
